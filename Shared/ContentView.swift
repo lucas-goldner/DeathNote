@@ -8,20 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var animate = false
     var body: some View {
-
-        VStack {
-            Button(action: {
-                for family in UIFont.familyNames.sorted() {
-                    let names = UIFont.fontNames(forFamilyName: family)
-                    print("Family: \(family) Font names: \(names)")
-                }
-            }, label: {
-                Text("Hey")
-            })
-            Text("L").font(Font.custom("CloisterBlack-Light", size: 33))
-        }
-        
+        ZStack{
+            Color("Primary")
+            
+            Image("LBig").resizable().renderingMode(.original).aspectRatio(contentMode: .fit)
+                .frame(width: 85, height:85)
+                .colorInvert()
+        }.ignoresSafeArea(.all, edges: .all)
     }
 }
 
@@ -29,6 +24,7 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+           
             .previewDevice("iPhone 12 Pro Max")
     }
 }
