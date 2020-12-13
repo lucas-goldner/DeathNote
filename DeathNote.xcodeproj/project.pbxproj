@@ -19,6 +19,8 @@
 		4D7389C425868659009EED82 /* RyuksHandwriting.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D7389BF25868659009EED82 /* RyuksHandwriting.ttf */; };
 		4D7389C525868659009EED82 /* CloisterBlack.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D7389C025868659009EED82 /* CloisterBlack.ttf */; };
 		4D7389C625868659009EED82 /* CloisterBlack.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D7389C025868659009EED82 /* CloisterBlack.ttf */; };
+		4D7389CA2586968F009EED82 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7389C92586968F009EED82 /* HomeView.swift */; };
+		4D7389CB2586968F009EED82 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7389C92586968F009EED82 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,7 @@
 		4D7389BE25868659009EED82 /* RyukExtra.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = RyukExtra.ttf; sourceTree = "<group>"; };
 		4D7389BF25868659009EED82 /* RyuksHandwriting.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = RyuksHandwriting.ttf; sourceTree = "<group>"; };
 		4D7389C025868659009EED82 /* CloisterBlack.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CloisterBlack.ttf; sourceTree = "<group>"; };
+		4D7389C92586968F009EED82 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +73,7 @@
 				4D73896F2586822F009EED82 /* DeathNoteApp.swift */,
 				4D7389702586822F009EED82 /* ContentView.swift */,
 				4D7389712586822F009EED82 /* Assets.xcassets */,
+				4D7389C92586968F009EED82 /* HomeView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -213,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D7389CA2586968F009EED82 /* HomeView.swift in Sources */,
 				4D7389842586822F009EED82 /* ContentView.swift in Sources */,
 				4D7389822586822F009EED82 /* DeathNoteApp.swift in Sources */,
 			);
@@ -222,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D7389CB2586968F009EED82 /* HomeView.swift in Sources */,
 				4D7389852586822F009EED82 /* ContentView.swift in Sources */,
 				4D7389832586822F009EED82 /* DeathNoteApp.swift in Sources */,
 			);
