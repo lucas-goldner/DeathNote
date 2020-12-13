@@ -13,6 +13,12 @@
 		4D7389852586822F009EED82 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7389702586822F009EED82 /* ContentView.swift */; };
 		4D7389862586822F009EED82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D7389712586822F009EED82 /* Assets.xcassets */; };
 		4D7389872586822F009EED82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D7389712586822F009EED82 /* Assets.xcassets */; };
+		4D7389C125868659009EED82 /* RyukExtra.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D7389BE25868659009EED82 /* RyukExtra.ttf */; };
+		4D7389C225868659009EED82 /* RyukExtra.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D7389BE25868659009EED82 /* RyukExtra.ttf */; };
+		4D7389C325868659009EED82 /* RyuksHandwriting.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D7389BF25868659009EED82 /* RyuksHandwriting.ttf */; };
+		4D7389C425868659009EED82 /* RyuksHandwriting.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D7389BF25868659009EED82 /* RyuksHandwriting.ttf */; };
+		4D7389C525868659009EED82 /* CloisterBlack.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D7389C025868659009EED82 /* CloisterBlack.ttf */; };
+		4D7389C625868659009EED82 /* CloisterBlack.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D7389C025868659009EED82 /* CloisterBlack.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,9 @@
 		4D73897E2586822F009EED82 /* DeathNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeathNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D7389802586822F009EED82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D7389812586822F009EED82 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		4D7389BE25868659009EED82 /* RyukExtra.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = RyukExtra.ttf; sourceTree = "<group>"; };
+		4D7389BF25868659009EED82 /* RyuksHandwriting.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = RyuksHandwriting.ttf; sourceTree = "<group>"; };
+		4D7389C025868659009EED82 /* CloisterBlack.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CloisterBlack.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +56,7 @@
 		4D7389692586822F009EED82 = {
 			isa = PBXGroup;
 			children = (
+				4D73899225868451009EED82 /* Fonts */,
 				4D73896E2586822F009EED82 /* Shared */,
 				4D7389782586822F009EED82 /* iOS */,
 				4D73897F2586822F009EED82 /* macOS */,
@@ -88,6 +98,16 @@
 				4D7389812586822F009EED82 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		4D73899225868451009EED82 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4D7389C025868659009EED82 /* CloisterBlack.ttf */,
+				4D7389BE25868659009EED82 /* RyukExtra.ttf */,
+				4D7389BF25868659009EED82 /* RyuksHandwriting.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,7 +188,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D7389C125868659009EED82 /* RyukExtra.ttf in Resources */,
+				4D7389C325868659009EED82 /* RyuksHandwriting.ttf in Resources */,
 				4D7389862586822F009EED82 /* Assets.xcassets in Resources */,
+				4D7389C525868659009EED82 /* CloisterBlack.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,7 +199,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D7389C225868659009EED82 /* RyukExtra.ttf in Resources */,
+				4D7389C425868659009EED82 /* RyuksHandwriting.ttf in Resources */,
 				4D7389872586822F009EED82 /* Assets.xcassets in Resources */,
+				4D7389C625868659009EED82 /* CloisterBlack.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
